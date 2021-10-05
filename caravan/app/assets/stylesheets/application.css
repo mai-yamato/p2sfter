@@ -212,7 +212,7 @@ main {
   margin-right: 10px;
 }
 .instagram-box:nth-child(1) {
-  background-image: url(img/airport.jpg);
+  background-image: url(images/airport.jpg);
 }
 .instagram-box:nth-child(2) {
   background-image: url(img/japan.jpg);
