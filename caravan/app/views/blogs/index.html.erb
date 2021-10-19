@@ -3,9 +3,9 @@
     <%= link_to "CARAVAN", blogs_path %>
   </h1>
   <div class="social">
-    <i class="fab fa-facebook-square"></i>
-    <i class="fab fa-twitter-square"></i>
-    <i class="fab fa-instagram"></i>
+    <%= link_to root_path do %><i class="fa fa-facebook-square fa-spin"></i><% end %>
+    <%= link_to homes_about_path do %><i class="fa fa-twitter-square fa-spin"></i><% end %>
+    <%= link_to homes_topic_path do %><i class="fa fa-instagram fa-spin"></i><% end %>
   </div>
 </header>
 <nav>
